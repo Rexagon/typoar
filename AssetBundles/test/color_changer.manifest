@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 4260118331
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: aef8f2031bb56b387fcee4bbbd808b7b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 70d356a8d2c1ed7e45a67d374ecb4d2b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ef867aa8c7254114ca210e2cfdb20005, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e49a0b2bdd293a849af39570f8221f63, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Main/color_changer.prefab
+Dependencies: []
