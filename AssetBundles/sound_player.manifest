@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 110514002
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c42adefc6e5d4bd061ee4b8d1a97001e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2bb50b177b616177fe3568b56077a6ea
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e49a0b2bdd293a849af39570f8221f63, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Main/sound_player.prefab
+Dependencies: []

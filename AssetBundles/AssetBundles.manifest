@@ -1,7 +1,13 @@
 ManifestFileVersion: 0
-CRC: 2508523150
+CRC: 4011035286
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: test/color_changer
+      Dependencies: {}
+    Info_1:
+      Name: robot_scene
+      Dependencies: {}
+    Info_2:
+      Name: sound_player
       Dependencies: {}

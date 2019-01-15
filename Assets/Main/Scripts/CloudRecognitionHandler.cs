@@ -8,7 +8,7 @@ public class CloudRecognitionHandler : MonoBehaviour, ICloudRecoEventHandler
 {
     public string currentTargetName;
 
-    bool isScanning;
+    bool isScanning = false;
     CloudRecoBehaviour cloudRecoBehaviour;
 
     void Start()

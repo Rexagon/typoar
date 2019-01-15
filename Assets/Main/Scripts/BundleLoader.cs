@@ -56,4 +56,12 @@ public class BundleLoader : MonoBehaviour
 
         spawnedObject = Instantiate(prefab, origin);
     }
+
+    public void DestroySpawned()
+    {
+        if (spawnedObject == null)
+            return;
+
+        Destroy(spawnedObject);
+    }
 }

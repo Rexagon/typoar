@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 1799780861
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fc16861c62ccdcac22a769b2a252ede0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d74e6cb329cf7e9eeb89af17b83abd1a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e49a0b2bdd293a849af39570f8221f63, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Main/robot_scene.prefab
+Dependencies: []

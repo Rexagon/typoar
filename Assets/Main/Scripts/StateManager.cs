@@ -51,6 +51,12 @@ public class StateManager : MonoBehaviour
 
         Debug.LogWarning(response);
 
+        var loaders = FindObjectsOfType<BundleLoader>();
+        foreach (var loader in loaders)
+        {
+            loader.DestroySpawned();
+        }
+
         targetBundles.Clear();
         foreach(var bundle in bundles)
         {

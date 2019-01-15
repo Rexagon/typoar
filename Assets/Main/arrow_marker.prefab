@@ -302,6 +302,11 @@ PrefabInstance:
       propertyPath: buttonName
       value: Top
       objectReference: {fileID: 0}
+    - target: {fileID: 1454302073543925057, guid: 94be394837d2a7a4da03cdf8c85b1eca,
+        type: 3}
+      propertyPath: buttonObject
+      value: 
+      objectReference: {fileID: 3344544657805374758}
     - target: {fileID: 1883321729678769745, guid: 94be394837d2a7a4da03cdf8c85b1eca,
         type: 3}
       propertyPath: mPrevParent
@@ -317,6 +322,12 @@ PrefabInstance:
 --- !u!4 &3834690636458230053 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1883321729678769757, guid: 94be394837d2a7a4da03cdf8c85b1eca,
+    type: 3}
+  m_PrefabInstance: {fileID: 3392734389356658552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3344544657805374758 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 107906444697897566, guid: 94be394837d2a7a4da03cdf8c85b1eca,
     type: 3}
   m_PrefabInstance: {fileID: 3392734389356658552}
   m_PrefabAsset: {fileID: 0}
@@ -392,6 +403,11 @@ PrefabInstance:
       propertyPath: buttonName
       value: Right
       objectReference: {fileID: 0}
+    - target: {fileID: 1454302073543925057, guid: 94be394837d2a7a4da03cdf8c85b1eca,
+        type: 3}
+      propertyPath: buttonObject
+      value: 
+      objectReference: {fileID: 3767492569322408449}
     - target: {fileID: 1883321729678769745, guid: 94be394837d2a7a4da03cdf8c85b1eca,
         type: 3}
       propertyPath: mPrevParent
@@ -422,6 +438,12 @@ PrefabInstance:
 --- !u!4 &3392734389343731202 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1883321729678769757, guid: 94be394837d2a7a4da03cdf8c85b1eca,
+    type: 3}
+  m_PrefabInstance: {fileID: 3834690636453462111}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3767492569322408449 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 107906444697897566, guid: 94be394837d2a7a4da03cdf8c85b1eca,
     type: 3}
   m_PrefabInstance: {fileID: 3834690636453462111}
   m_PrefabAsset: {fileID: 0}
@@ -497,6 +519,11 @@ PrefabInstance:
       propertyPath: buttonName
       value: Left
       objectReference: {fileID: 0}
+    - target: {fileID: 1454302073543925057, guid: 94be394837d2a7a4da03cdf8c85b1eca,
+        type: 3}
+      propertyPath: buttonObject
+      value: 
+      objectReference: {fileID: 3767492569351834634}
     - target: {fileID: 1883321729678769745, guid: 94be394837d2a7a4da03cdf8c85b1eca,
         type: 3}
       propertyPath: mPrevParent
@@ -527,6 +554,12 @@ PrefabInstance:
 --- !u!4 &3392734389314304009 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1883321729678769757, guid: 94be394837d2a7a4da03cdf8c85b1eca,
+    type: 3}
+  m_PrefabInstance: {fileID: 3834690636482758228}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3767492569351834634 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 107906444697897566, guid: 94be394837d2a7a4da03cdf8c85b1eca,
     type: 3}
   m_PrefabInstance: {fileID: 3834690636482758228}
   m_PrefabAsset: {fileID: 0}
@@ -672,6 +705,11 @@ PrefabInstance:
       propertyPath: buttonName
       value: Bottom
       objectReference: {fileID: 0}
+    - target: {fileID: 1454302073543925057, guid: 94be394837d2a7a4da03cdf8c85b1eca,
+        type: 3}
+      propertyPath: buttonObject
+      value: 
+      objectReference: {fileID: 3767492568747425663}
     - target: {fileID: 1883321729678769745, guid: 94be394837d2a7a4da03cdf8c85b1eca,
         type: 3}
       propertyPath: mPrevParent
@@ -697,6 +735,12 @@ PrefabInstance:
 --- !u!4 &3392734389919697788 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1883321729678769757, guid: 94be394837d2a7a4da03cdf8c85b1eca,
+    type: 3}
+  m_PrefabInstance: {fileID: 3834690637222688033}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3767492568747425663 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 107906444697897566, guid: 94be394837d2a7a4da03cdf8c85b1eca,
     type: 3}
   m_PrefabInstance: {fileID: 3834690637222688033}
   m_PrefabAsset: {fileID: 0}
