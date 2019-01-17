@@ -5,9 +5,18 @@ using UnityEngine.XR;
 
 public class VRSwitcher : MonoBehaviour
 {
+    public bool DisableOnAwake = false;
+
     private void Start()
     {
-        StartCoroutine(SwitchToVR());
+        if (DisableOnAwake)
+        {
+            XRSettings.enabled = false;
+        }
+        else
+        {
+            StartCoroutine(SwitchToVR());
+        }
     }
 
     private void OnDestroy()
