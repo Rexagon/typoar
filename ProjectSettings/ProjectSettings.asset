@@ -151,7 +151,7 @@ PlayerSettings:
     Android: rtuitlab.typoar
   buildNumber: {}
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 16
+  AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -381,6 +381,11 @@ PlayerSettings:
     m_Devices:
     - Oculus
     - OpenVR
+  - m_BuildTarget: Android
+    m_Enabled: 1
+    m_Devices:
+    - cardboard
+    - daydream
   m_BuildTargetEnableVuforiaSettings:
   - m_BuildTarget: Android
     m_Enabled: 1
