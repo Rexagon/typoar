@@ -6,6 +6,7 @@ using Vuforia;
 
 public class AugmentedButton : MonoBehaviour, IVirtualButtonEventHandler
 {
+    public float delay = 1.0f;
     public string buttonName;
     public Renderer buttonObject;
 
@@ -14,7 +15,10 @@ public class AugmentedButton : MonoBehaviour, IVirtualButtonEventHandler
     bool isPressed;
     bool pressedFromTouch;
     bool isOccluded;
+    bool wasOccluded;
     Collider buttonCollider;
+
+    bool waiting;
 
     void Start()
     {
@@ -34,6 +38,11 @@ public class AugmentedButton : MonoBehaviour, IVirtualButtonEventHandler
     void Update()
     {
         isOccluded = !CameraManager.Instance.TestBounds(buttonObject.bounds);
+        if (!wasOccluded && isOccluded) {
+            waiting = false;
+        }
+        wasOccluded = isOccluded;
+
         buttonObject.enabled = !isOccluded && buttonCollider.enabled;
     }
 
@@ -56,8 +65,23 @@ public class AugmentedButton : MonoBehaviour, IVirtualButtonEventHandler
         if (pressed)
             pressedFromTouch = fromTouch;
 
-        trackable.Fire(buttonName + (pressed ? "Pressed" : "Released"));
         SetAnimationState(pressed);
+
+        string eventName = buttonName + (pressed ? "Pressed" : "Released");
+
+        if (pressed)
+        {
+            if (waiting)
+                return;
+
+            waiting = true;
+            StartCoroutine(FireDelayed(eventName));
+        }
+        else
+        {
+            waiting = false;
+            trackable.Fire(eventName);
+        }
     }
     
     void SetAnimationState(bool pressed)
@@ -66,5 +90,16 @@ public class AugmentedButton : MonoBehaviour, IVirtualButtonEventHandler
             return;
 
         buttonAnimator.SetBool("Pressed", pressed);
+    }
+
+    IEnumerator FireDelayed(string eventName)
+    {
+        yield return new WaitForSeconds(delay);
+
+        if (!waiting)
+            yield break;
+
+        trackable.Fire(eventName);
+        waiting = false;
     }
 }
